@@ -1,0 +1,467 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/srdt/ontologies/2021/MappingIdeas#"
+     xml:base="http://www.semanticweb.org/srdt/ontologies/2021/MappingIdeas"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_1891b41c_6f9c_4598_9b1f_c0ea68dea163 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_1891b41c_6f9c_4598_9b1f_c0ea68dea163">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_fbcfc5fe_9c03_4c94_86c3_cff09d41abc9"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">is_composed_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_4cc2f0ff_4290_468c_9fe3_c48d0996a890 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_4cc2f0ff_4290_468c_9fe3_c48d0996a890">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_fbcfc5fe_9c03_4c94_86c3_cff09d41abc9"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">taught_in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_5e9a82c7_3392_4ad8_9ad3_74e39bc01881 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_5e9a82c7_3392_4ad8_9ad3_74e39bc01881">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_fbcfc5fe_9c03_4c94_86c3_cff09d41abc9"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">has_written</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_64eb8868_aab8_4e22_bb80_451dc38de7e7 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_64eb8868_aab8_4e22_bb80_451dc38de7e7">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_fbcfc5fe_9c03_4c94_86c3_cff09d41abc9"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">has_taught</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_661bccc6_612b_46ed_90d0_f4f516b3c36c -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_661bccc6_612b_46ed_90d0_f4f516b3c36c">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_fbcfc5fe_9c03_4c94_86c3_cff09d41abc9"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_9f2d426d_e179_409a_90be_e77a82103650"/>
+        <rdfs:label xml:lang="en">is_a</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_8c84b650_7a58_4a02_b704_136de639fa34 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_8c84b650_7a58_4a02_b704_136de639fa34">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_fbcfc5fe_9c03_4c94_86c3_cff09d41abc9"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">is_in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_a1299f48_635a_417f_9f02_37cabda2f601 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_a1299f48_635a_417f_9f02_37cabda2f601">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_fbcfc5fe_9c03_4c94_86c3_cff09d41abc9"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">was_trained_in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_fbcfc5fe_9c03_4c94_86c3_cff09d41abc9 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_fbcfc5fe_9c03_4c94_86c3_cff09d41abc9">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">relational_property</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_fe4545b7_3976_4824_ad26_67368e515fd4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_fe4545b7_3976_4824_ad26_67368e515fd4">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">modifier_property</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_0ded5652_e0e8_4c89_9abb_17366fb050c8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_0ded5652_e0e8_4c89_9abb_17366fb050c8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_c5114a2f_53fc_44ea_b00c_c4c1d3e03350"/>
+        <rdfs:label xml:lang="en">Abstract_entities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_127ac70c_dcbc_4795_89dc_b86f4b8ce3c1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_127ac70c_dcbc_4795_89dc_b86f4b8ce3c1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_f7aff431_813d_4be4_a550_0d488075ec6f"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_1891b41c_6f9c_4598_9b1f_c0ea68dea163"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_9f2d426d_e179_409a_90be_e77a82103650"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_8c84b650_7a58_4a02_b704_136de639fa34"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_91872c92_2041_4e43_9875_fc9b5b975846"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Theories</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_15053cac_5762_40c7_8e3e_f9b0d4b9d781 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_15053cac_5762_40c7_8e3e_f9b0d4b9d781">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_660591ca_a7b6_47ab_aedc_d80ddef436eb"/>
+        <rdfs:label xml:lang="en">True</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_175794c1_a431_41cb_87cb_b4bdae01cb57 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_175794c1_a431_41cb_87cb_b4bdae01cb57">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_81cc4d17_41e6_4211_943e_6bb583bad8a5"/>
+        <rdfs:label xml:lang="en">Complex Themes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_1f5cefea_9969_4485_a39a_99760f3efe54 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_1f5cefea_9969_4485_a39a_99760f3efe54">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_660591ca_a7b6_47ab_aedc_d80ddef436eb"/>
+        <rdfs:label xml:lang="en">Probable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_2f992f9f_fa12_47f4_a040_fedd88228401 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_2f992f9f_fa12_47f4_a040_fedd88228401">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_9f2d426d_e179_409a_90be_e77a82103650"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_1891b41c_6f9c_4598_9b1f_c0ea68dea163"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_ac3c2e52_f9bb_466c_94c9_76410ceb4978"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Complex Concepts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_4790f5bd_d899_4065_bc10_87dc63685936 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_4790f5bd_d899_4065_bc10_87dc63685936">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_81cc4d17_41e6_4211_943e_6bb583bad8a5"/>
+        <rdfs:label xml:lang="en">Simple Themes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_4bac9544_55f7_4213_aff6_8bd317a90586 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_4bac9544_55f7_4213_aff6_8bd317a90586">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_880ab191_0b3e_4bd3_b8ad_76381df5cc41"/>
+        <rdfs:label xml:lang="en">Country</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_65c90740_6dcb_49e3_935b_93138adc3d5f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_65c90740_6dcb_49e3_935b_93138adc3d5f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_660591ca_a7b6_47ab_aedc_d80ddef436eb"/>
+        <rdfs:label xml:lang="en">False</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_660591ca_a7b6_47ab_aedc_d80ddef436eb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_660591ca_a7b6_47ab_aedc_d80ddef436eb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_a8c25103_5d82_4de2_ac3c_5d03594981be"/>
+        <rdfs:label xml:lang="en">Value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_7676ce72_4741_49ab_a751_ade3a1e36f5e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_7676ce72_4741_49ab_a751_ade3a1e36f5e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_7dafc161_fe2d_4f40_8dd1_0a78e0f975b3"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_8c84b650_7a58_4a02_b704_136de639fa34"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_7dafc161_fe2d_4f40_8dd1_0a78e0f975b3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Library</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_797962d9_c603_4747_ae92_d22ded660426 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_797962d9_c603_4747_ae92_d22ded660426">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_fdd00932_0000_4e11_bba8_47d757b63e9d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_4cc2f0ff_4290_468c_9fe3_c48d0996a890"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_fc9990a5_af67_4e61_82f3_baab8f7e074b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_5e9a82c7_3392_4ad8_9ad3_74e39bc01881"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_91872c92_2041_4e43_9875_fc9b5b975846"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_64eb8868_aab8_4e22_bb80_451dc38de7e7"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_797962d9_c603_4747_ae92_d22ded660426"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_a1299f48_635a_417f_9f02_37cabda2f601"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_7dafc161_fe2d_4f40_8dd1_0a78e0f975b3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Persons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_7dafc161_fe2d_4f40_8dd1_0a78e0f975b3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_7dafc161_fe2d_4f40_8dd1_0a78e0f975b3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_4bac9544_55f7_4213_aff6_8bd317a90586"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_8c84b650_7a58_4a02_b704_136de639fa34"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_4bac9544_55f7_4213_aff6_8bd317a90586"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">City</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_7e03383a_d403_48db_a289_8a9c2a1245b8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_7e03383a_d403_48db_a289_8a9c2a1245b8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_660591ca_a7b6_47ab_aedc_d80ddef436eb"/>
+        <rdfs:label xml:lang="en">Indeterminate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_81cc4d17_41e6_4211_943e_6bb583bad8a5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_81cc4d17_41e6_4211_943e_6bb583bad8a5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_0ded5652_e0e8_4c89_9abb_17366fb050c8"/>
+        <rdfs:label xml:lang="en">Themes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_880ab191_0b3e_4bd3_b8ad_76381df5cc41 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_880ab191_0b3e_4bd3_b8ad_76381df5cc41">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_fdd00932_0000_4e11_bba8_47d757b63e9d"/>
+        <rdfs:label xml:lang="en">Places</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_91872c92_2041_4e43_9875_fc9b5b975846 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_91872c92_2041_4e43_9875_fc9b5b975846">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_fdd00932_0000_4e11_bba8_47d757b63e9d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_8c84b650_7a58_4a02_b704_136de639fa34"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_9ce4213a_a1e6_4f0e_8be7_56355b522b37"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Works</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_9ce4213a_a1e6_4f0e_8be7_56355b522b37 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_9ce4213a_a1e6_4f0e_8be7_56355b522b37">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_fdd00932_0000_4e11_bba8_47d757b63e9d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_8c84b650_7a58_4a02_b704_136de639fa34"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_7676ce72_4741_49ab_a751_ade3a1e36f5e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Manuscripts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_9f2d426d_e179_409a_90be_e77a82103650 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_9f2d426d_e179_409a_90be_e77a82103650">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_127ac70c_dcbc_4795_89dc_b86f4b8ce3c1"/>
+        <rdfs:label xml:lang="en">Concepts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_a8c25103_5d82_4de2_ac3c_5d03594981be -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_a8c25103_5d82_4de2_ac3c_5d03594981be">
+        <rdfs:label xml:lang="en">Domain_entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_ac3c2e52_f9bb_466c_94c9_76410ceb4978 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_ac3c2e52_f9bb_466c_94c9_76410ceb4978">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_9f2d426d_e179_409a_90be_e77a82103650"/>
+        <rdfs:label xml:lang="en">Simple Concepts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_c5114a2f_53fc_44ea_b00c_c4c1d3e03350 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_c5114a2f_53fc_44ea_b00c_c4c1d3e03350">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_a8c25103_5d82_4de2_ac3c_5d03594981be"/>
+        <rdfs:label xml:lang="en">Independent_entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_f7aff431_813d_4be4_a550_0d488075ec6f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_f7aff431_813d_4be4_a550_0d488075ec6f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_0ded5652_e0e8_4c89_9abb_17366fb050c8"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLObjectProperty_1891b41c_6f9c_4598_9b1f_c0ea68dea163"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_127ac70c_dcbc_4795_89dc_b86f4b8ce3c1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Philosophical Systems</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_fc9990a5_af67_4e61_82f3_baab8f7e074b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_fc9990a5_af67_4e61_82f3_baab8f7e074b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_7dafc161_fe2d_4f40_8dd1_0a78e0f975b3"/>
+        <rdfs:label xml:lang="en">University</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_fdd00932_0000_4e11_bba8_47d757b63e9d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_fdd00932_0000_4e11_bba8_47d757b63e9d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_c5114a2f_53fc_44ea_b00c_c4c1d3e03350"/>
+        <rdfs:label xml:lang="en">Concrete_entities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_127ac70c_dcbc_4795_89dc_b86f4b8ce3c1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_797962d9_c603_4747_ae92_d22ded660426"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_81cc4d17_41e6_4211_943e_6bb583bad8a5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_9f2d426d_e179_409a_90be_e77a82103650"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_f7aff431_813d_4be4_a550_0d488075ec6f"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_660591ca_a7b6_47ab_aedc_d80ddef436eb"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_a8c25103_5d82_4de2_ac3c_5d03594981be"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/MappingScholasticIdeas#OWLClass_c5114a2f_53fc_44ea_b00c_c4c1d3e03350"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

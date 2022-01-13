@@ -1,0 +1,1483 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/srdt/ontologies/2021/5/scholastics_ontology#"
+     xml:base="http://www.semanticweb.org/srdt/ontologies/2021/5/scholastics_ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLObjectProperty_0e82feac_1685_4a55_8135_c1dc1261d758 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLObjectProperty_0e82feac_1685_4a55_8135_c1dc1261d758">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#relational_property"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">has_written</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLObjectProperty_2d280268_6dad_4097_a986_8301491307d6 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLObjectProperty_2d280268_6dad_4097_a986_8301491307d6">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLObjectProperty_72a457db_8d7a_4ee9_8f07_3a92272ddbce"/>
+        <rdfs:label xml:lang="en">is_a_partial_cause_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLObjectProperty_479032f0_f65e_45f9_b6da_ac53e9a492a1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLObjectProperty_479032f0_f65e_45f9_b6da_ac53e9a492a1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLObjectProperty_72a457db_8d7a_4ee9_8f07_3a92272ddbce"/>
+        <rdfs:label xml:lang="en">is_a_total_cause_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLObjectProperty_72a457db_8d7a_4ee9_8f07_3a92272ddbce -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLObjectProperty_72a457db_8d7a_4ee9_8f07_3a92272ddbce">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#relational_property"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:label xml:lang="en">is_cause_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLObjectProperty_901fe41c_7e66_4ecf_a2a0_563823a05816 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLObjectProperty_901fe41c_7e66_4ecf_a2a0_563823a05816">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#relational_property"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">is_composed_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLObjectProperty_c5c0f921_b708_4b11_9232_8e8eab678e57 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLObjectProperty_c5c0f921_b708_4b11_9232_8e8eab678e57">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#relational_property"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">is_a(some)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#by_the_intellect -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#by_the_intellect">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#is_knowable"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#by_the_senses -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#by_the_senses">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#is_knowable"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#conceives_as -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#conceives_as">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#modifier_property"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#inheres_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#inheres_in">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#relational_property"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#is_knowable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#is_knowable">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#conceives_as"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#modifier_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#modifier_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#relational_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#relational_property">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Accident -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Accident">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Categories"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#inheres_in"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Substance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Substantial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Accidental -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Accidental">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Form"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Accidents -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Accidents">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Predicable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Act -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Act">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Act_and_Potency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Act_and_Potency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Act_and_Potency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Real_Being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Accident"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Agent_Cause -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Agent_Cause">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Cause"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Alteration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Alteration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Motion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Angels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Angels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Immaterial_Substance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Animate_Living_Substance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Animate_Living_Substance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Living_Material_Substance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Augmentation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Augmentation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Quantitative_Motion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Beautiful -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Beautiful">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Transcendental"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Being -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Being">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Predicate"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Transcendental"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Being_Of_Reason -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Being_Of_Reason">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#By_Natural_Reason -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#By_Natural_Reason">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Knowable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#By_Revelation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#By_Revelation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Knowable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Categories -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Categories">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Real_Being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Cause -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Cause">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Concepts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Celestial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Celestial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Corporeal"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Terrestrial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Change -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Change">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Concepts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Concepts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Concepts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_01fe4e42_bee3_4148_a9df_59e7c2ec20de"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLObjectProperty_72a457db_8d7a_4ee9_8f07_3a92272ddbce"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_01fe4e42_bee3_4148_a9df_59e7c2ec20de"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Condensation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Condensation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Diminution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Continuous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Continuous">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Quantity"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Discrete"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Corporeal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Corporeal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Matter"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Spiritual"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Corruption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Corruption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Substantial_Change"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Decrease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Decrease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Diminution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Definition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Definition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Predicable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Diminution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Diminution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Quantitative_Motion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Discrete -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Discrete">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Quantity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Domain_entity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Domain_entity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Efficient_Cause -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Efficient_Cause">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Cause"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Elements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Elements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Non_Living_Material_Substance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Elements_Air -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Elements_Air">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Elements_Earth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Elements_Earth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Elements_Fire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Elements_Fire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Elements_Water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Elements_Water">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Epistemological_Access -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Epistemological_Access">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#False -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#False">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Truth_Value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Final_Cause -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Final_Cause">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Cause"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#First_species -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#First_species">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Form -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Form">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Principles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Form_Of_Action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Form_Of_Action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Accidental"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Form_Of_Passion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Form_Of_Passion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Accidental"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Form_Of_Place -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Form_Of_Place">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Accidental"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Form_Of_Position -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Form_Of_Position">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Accidental"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Form_Of_Possession -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Form_Of_Possession">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Accidental"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Form_Of_Quality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Form_Of_Quality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Accidental"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Form_Of_Quantity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Form_Of_Quantity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Accidental"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Form_Of_Relation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Form_Of_Relation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Accidental"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Form_Of_Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Form_Of_Time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Accidental"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Formal_Cause -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Formal_Cause">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Cause"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Fourth_species -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Fourth_species">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Generation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Generation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Substantial_Change"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Genus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Genus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Predicable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#God -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#God">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Immaterial_Substance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Good -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Good">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Transcendental"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Growth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Growth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Augmentation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Heterogeneous_Mixtures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Heterogeneous_Mixtures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Mixtures"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Heterogeneous_Non_Animate_Living_Substance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Heterogeneous_Non_Animate_Living_Substance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Non_Animate_Living_Substance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Homogeneous_Mixtures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Homogeneous_Mixtures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Mixtures"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Homogeneous_Non_Animate_Living_Substance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Homogeneous_Non_Animate_Living_Substance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Non_Animate_Living_Substance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Imaginable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Imaginable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Supertranscendental"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Immaterial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Immaterial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Substantial"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Immaterial_Substance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Immaterial_Substance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Substance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Independent_entity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Independent_entity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Domain_entity"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Intelligences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Intelligences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Immaterial_Substance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Intelligible -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Intelligible">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Supertranscendental"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Intension -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Intension">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Alteration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Knowable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Knowable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Epistemological_Access"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Living_Material_Substance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Living_Material_Substance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_roudaut/ontologies/2021/5/scholastics_ontology#Material_Substance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Local_Motion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Local_Motion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Motion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Material -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Material">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Substantial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Material_Cause -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Material_Cause">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Cause"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Matter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Matter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Principles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Mixtures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Mixtures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Non_Living_Material_Substance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Motion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Motion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Change"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Moving_Cause -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Moving_Cause">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Cause"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Non_Animate_Living_Substance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Non_Animate_Living_Substance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Living_Material_Substance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Non_Living_Material_Substance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Non_Living_Material_Substance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_roudaut/ontologies/2021/5/scholastics_ontology#Material_Substance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Non_Rational_Animate_Living_Substance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Non_Rational_Animate_Living_Substance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Animate_Living_Substance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_01fe4e42_bee3_4148_a9df_59e7c2ec20de -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_01fe4e42_bee3_4148_a9df_59e7c2ec20de">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Independent_entity"/>
+        <rdfs:label xml:lang="en">Abstract entities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_0a3cd790_4994_4465_bc03_2061bc5804d7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_0a3cd790_4994_4465_bc03_2061bc5804d7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_a76558f9_1151_4467_a5b5_1fa89a742bf6"/>
+        <rdfs:label xml:lang="en">Theologian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_12b95563_f26d_4d60_b8bc_001f132d17ea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_12b95563_f26d_4d60_b8bc_001f132d17ea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_d5c40dcb_5ae7_4326_8d02_b98c58bf128b"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLObjectProperty_72a457db_8d7a_4ee9_8f07_3a92272ddbce"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_d5c40dcb_5ae7_4326_8d02_b98c58bf128b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_29fd149f_0c12_4d27_b07c_33cbb2734f8b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_29fd149f_0c12_4d27_b07c_33cbb2734f8b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_12b95563_f26d_4d60_b8bc_001f132d17ea"/>
+        <rdfs:label xml:lang="en">Printed_books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_3bd3f694_ad5e_438e_8f3b_adbf6b0ca292 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_3bd3f694_ad5e_438e_8f3b_adbf6b0ca292">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_a76558f9_1151_4467_a5b5_1fa89a742bf6"/>
+        <rdfs:label xml:lang="en">Student</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_8736f894_a182_4e38_b7e0_08b589062bbd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_8736f894_a182_4e38_b7e0_08b589062bbd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_a76558f9_1151_4467_a5b5_1fa89a742bf6"/>
+        <rdfs:label xml:lang="en">Master of Arts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_980ece5a_c946_43d0_abf0_e4ed775757c2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_980ece5a_c946_43d0_abf0_e4ed775757c2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_01fe4e42_bee3_4148_a9df_59e7c2ec20de"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLObjectProperty_72a457db_8d7a_4ee9_8f07_3a92272ddbce"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_01fe4e42_bee3_4148_a9df_59e7c2ec20de"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLObjectProperty_901fe41c_7e66_4ecf_a2a0_563823a05816"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Concepts"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Theories</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_a76558f9_1151_4467_a5b5_1fa89a742bf6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_a76558f9_1151_4467_a5b5_1fa89a742bf6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_d5c40dcb_5ae7_4326_8d02_b98c58bf128b"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLObjectProperty_0e82feac_1685_4a55_8135_c1dc1261d758"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_12b95563_f26d_4d60_b8bc_001f132d17ea"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLObjectProperty_72a457db_8d7a_4ee9_8f07_3a92272ddbce"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_d5c40dcb_5ae7_4326_8d02_b98c58bf128b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_cad767d8_6c1a_43d7_97a7_e59b711b7e06 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_cad767d8_6c1a_43d7_97a7_e59b711b7e06">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_a76558f9_1151_4467_a5b5_1fa89a742bf6"/>
+        <rdfs:label xml:lang="en">Physician</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_d5c40dcb_5ae7_4326_8d02_b98c58bf128b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_d5c40dcb_5ae7_4326_8d02_b98c58bf128b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Independent_entity"/>
+        <rdfs:label xml:lang="en">Concrete entities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_eeedb267_bc02_4b05_8353_fc7cd41de3f8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_eeedb267_bc02_4b05_8353_fc7cd41de3f8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_12b95563_f26d_4d60_b8bc_001f132d17ea"/>
+        <rdfs:label xml:lang="en">Manuscripts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#One -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#One">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Transcendental"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Passion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Passion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Accident"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#PerAliud -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#PerAliud">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#PerSe/PerAliud"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#PerSe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#PerSe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#PerSe/PerAliud"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#PerSe_1stMode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#PerSe_1stMode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#PerSe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#PerSe_2ndMode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#PerSe_2ndMode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#PerSe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#PerSe_3rdMode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#PerSe_3rdMode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#PerSe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#PerSe_4thMode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#PerSe_4thMode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#PerSe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Place -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Place">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Accident"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Position -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Position">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Accident"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Possession -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Possession">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Accident"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Potency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Potency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Act_and_Potency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Predicable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Predicable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Predicate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Predicate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Predicate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Concepts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Primary_Act -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Primary_Act">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Act"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Principles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Principles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Concepts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Privation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Privation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Principles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Probable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Probable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Truth_Value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Property -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Property">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Predicable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Proximate_Potency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Proximate_Potency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Potency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Quality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Quality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Accident"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Quantitative_Motion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Quantitative_Motion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Motion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Quantity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Quantity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Accident"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Rarefaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Rarefaction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Augmentation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Rational_Animate_Living_Substance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Rational_Animate_Living_Substance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Animate_Living_Substance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Real_Being -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Real_Being">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Relation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Relation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Accident"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Remission -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Remission">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Alteration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Remote_Potency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Remote_Potency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Potency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Second_species -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Second_species">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Secondary_Act -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Secondary_Act">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Act"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Something -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Something">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Transcendental"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Species -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Species">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Predicable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Specific_Difference -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Specific_Difference">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Predicable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Spiritual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Spiritual">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Matter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Substance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Substance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Categories"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Substantial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Substantial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Form"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Substantial_Change -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Substantial_Change">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Change"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Supertranscendental -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Supertranscendental">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Predicate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Terrestrial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Terrestrial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Corporeal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Thing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Thing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Transcendental"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Third_species -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Third_species">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Accident"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Transcendental -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Transcendental">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Predicate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#True -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#True">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Transcendental"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Truth_Value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Truth_Value -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Truth_Value">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Unknowable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Unknowable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Epistemological_Access"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Value -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Value">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Domain_entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#PerSe/PerAliud -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#PerSe/PerAliud">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Real_Being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#True/False -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#True/False">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Real_Being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_roudaut/ontologies/2021/5/scholastics_ontology#Material_Substance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_roudaut/ontologies/2021/5/scholastics_ontology#Material_Substance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Substance"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Albert_Of_Saxony -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Albert_Of_Saxony"/>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Blasius_Of_Parma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Blasius_Of_Parma"/>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#John_Buridan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#John_Buridan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#John_Duns_Scotus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#John_Duns_Scotus"/>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#John_Wycliff -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#John_Wycliff"/>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Marsilius_Of_Inghen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Marsilius_Of_Inghen"/>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Nicole_Oresme -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Nicole_Oresme"/>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Paul_Of_Venice -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Paul_Of_Venice"/>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Walter_Burley -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Walter_Burley"/>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#William_Of_Ockham -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#William_Of_Ockham"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Action"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Passion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Place"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Position"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Possession"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Quality"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Quantity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Relation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Time"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#First_species"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Fourth_species"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Second_species"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Third_species"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Form"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Matter"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Privation"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

@@ -1454,6 +1454,48 @@
     
 
 
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Thomas_Aquinas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Thomas_Aquinas"/>
+
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Walter_Chatton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Walter_Chatton"/>
+
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Gerard_Odo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Gerard_Odo"/>
+
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Peter_Auriol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Peter_Auriol"/>
+
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Peter_John_Olivi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Peter_John_Olivi"/>
+
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Adam_Wodeham -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Adam_Wodeham"/>
+
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Gaetan_of_Thiene -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Gaetan_of_Thiene"/>
+
+
+
     <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#William_Of_Ockham -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#William_Of_Ockham"/>

@@ -845,6 +845,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_0c59f0d0_af69_4f8a_b1be_d0f06867e498 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_0c59f0d0_af69_4f8a_b1be_d0f06867e498">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_8978b5b1_3612_4716_b92f_c55fa57cc0f4"/>
+        <rdfs:label xml:lang="en">Mode of quantity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_12b95563_f26d_4d60_b8bc_001f132d17ea -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_12b95563_f26d_4d60_b8bc_001f132d17ea">
@@ -878,11 +887,29 @@
     
 
 
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_473fdd6c_ebd6_48f0_a819_125b4174af50 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_473fdd6c_ebd6_48f0_a819_125b4174af50">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_8978b5b1_3612_4716_b92f_c55fa57cc0f4"/>
+        <rdfs:label xml:lang="en">Mode of understanding</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_8736f894_a182_4e38_b7e0_08b589062bbd -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_8736f894_a182_4e38_b7e0_08b589062bbd">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_a76558f9_1151_4467_a5b5_1fa89a742bf6"/>
         <rdfs:label xml:lang="en">Master of Arts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_8978b5b1_3612_4716_b92f_c55fa57cc0f4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_8978b5b1_3612_4716_b92f_c55fa57cc0f4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#Predicable"/>
+        <rdfs:label xml:lang="en">Mode</rdfs:label>
     </owl:Class>
     
 
@@ -904,6 +931,15 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Theories</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_9c05683a_dc5e_44d6_b2c4_e7c6784e622a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_9c05683a_dc5e_44d6_b2c4_e7c6784e622a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_8978b5b1_3612_4716_b92f_c55fa57cc0f4"/>
+        <rdfs:label xml:lang="en">Mode of thing</rdfs:label>
     </owl:Class>
     
 
@@ -935,11 +971,38 @@
     
 
 
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_a80330a4_e117_4f78_9b95_21cf92acefc2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_a80330a4_e117_4f78_9b95_21cf92acefc2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_8978b5b1_3612_4716_b92f_c55fa57cc0f4"/>
+        <rdfs:label xml:lang="en">Mode of being</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_acaedeab_ff6e_4331_b9a2_0a0bf044f20e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_acaedeab_ff6e_4331_b9a2_0a0bf044f20e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_8978b5b1_3612_4716_b92f_c55fa57cc0f4"/>
+        <rdfs:label xml:lang="en">Mode of quality</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_cad767d8_6c1a_43d7_97a7_e59b711b7e06 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_cad767d8_6c1a_43d7_97a7_e59b711b7e06">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_a76558f9_1151_4467_a5b5_1fa89a742bf6"/>
         <rdfs:label xml:lang="en">Physician</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_cda4f448_4c2e_46f1_ae36_22a7c01e3be5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_cda4f448_4c2e_46f1_ae36_22a7c01e3be5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_8978b5b1_3612_4716_b92f_c55fa57cc0f4"/>
+        <rdfs:label xml:lang="en">Mode of signifying</rdfs:label>
     </owl:Class>
     
 
@@ -1400,6 +1463,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Adam_Wodeham -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Adam_Wodeham"/>
+    
+
+
     <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Albert_Of_Saxony -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Albert_Of_Saxony"/>
@@ -1409,6 +1478,18 @@
     <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Blasius_Of_Parma -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Blasius_Of_Parma"/>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Gaetan_of_Thiene -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Gaetan_of_Thiene"/>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Gerard_Odo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Gerard_Odo"/>
     
 
 
@@ -1448,52 +1529,34 @@
     
 
 
-    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Walter_Burley -->
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Peter_Auriol -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Walter_Burley"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Peter_Auriol"/>
+    
+
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Peter_John_Olivi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Peter_John_Olivi"/>
     
 
 
     <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Thomas_Aquinas -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Thomas_Aquinas"/>
+    
 
+
+    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Walter_Burley -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Walter_Burley"/>
+    
 
 
     <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Walter_Chatton -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Walter_Chatton"/>
-
-
-
-    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Gerard_Odo -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Gerard_Odo"/>
-
-
-
-    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Peter_Auriol -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Peter_Auriol"/>
-
-
-
-    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Peter_John_Olivi -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Peter_John_Olivi"/>
-
-
-
-    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Adam_Wodeham -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Adam_Wodeham"/>
-
-
-
-    <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#Gaetan_of_Thiene -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Gaetan_of_Thiene"/>
-
+    
 
 
     <!-- http://www.semanticweb.org/s_rdt/scholastic_ontology#William_Of_Ockham -->
@@ -1539,6 +1602,17 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Form"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Matter"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#Privation"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_0c59f0d0_af69_4f8a_b1be_d0f06867e498"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_473fdd6c_ebd6_48f0_a819_125b4174af50"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_9c05683a_dc5e_44d6_b2c4_e7c6784e622a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_a80330a4_e117_4f78_9b95_21cf92acefc2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_acaedeab_ff6e_4331_b9a2_0a0bf044f20e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/s_rdt/scholastic_ontology#OWLClass_cda4f448_4c2e_46f1_ae36_22a7c01e3be5"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
